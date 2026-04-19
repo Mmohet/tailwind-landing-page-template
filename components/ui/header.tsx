@@ -11,25 +11,37 @@ export default function Header() {
             <Logo />
           </div>
 
-          {/* Desktop sign in links */}
-          <ul className="flex flex-1 items-center justify-end gap-3">
-            <li>
-              <Link
-                href="/signin"
-                className="btn-sm bg-white text-gray-800 shadow-sm hover:bg-gray-50"
-              >
-                Login
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/signup"
-                className="btn-sm bg-gray-800 text-gray-200 shadow-sm hover:bg-gray-900"
-              >
-                Register
-              </Link>
-            </li>
-          </ul>
+          {/* Nav links */}
+          <nav className="hidden md:flex flex-1 items-center justify-center gap-6">
+            <Link
+              href="#services"
+              className="text-sm text-gray-600 transition hover:text-gray-900"
+            >
+              Services
+            </Link>
+            <Link
+              href="#products"
+              className="text-sm text-gray-600 transition hover:text-gray-900"
+            >
+              Products
+            </Link>
+            <Link
+              href="#contact"
+              className="text-sm text-gray-600 transition hover:text-gray-900"
+            >
+              Contact
+            </Link>
+          </nav>
+
+          {/* CTA */}
+          <div className="flex flex-1 items-center justify-end">
+            <Link
+              href="#contact"
+              className="btn-sm bg-gray-800 text-gray-200 shadow-sm hover:bg-gray-900"
+            >
+              Get in Touch
+            </Link>
+          </div>
         </div>
       </div>
     </header>
