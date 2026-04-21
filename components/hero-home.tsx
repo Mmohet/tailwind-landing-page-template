@@ -22,7 +22,7 @@ export default function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              We build intelligent <br className="max-lg:hidden" />
+              We build  <br className="max-lg:hidden" />
               software that scales
             </h1>
             <div className="mx-auto max-w-3xl">
