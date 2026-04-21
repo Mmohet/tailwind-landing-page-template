@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production';
+const basePath = process.env.BASE_PATH ?? '/tailwind-landing-page-template';
 
 const nextConfig = {
   output: 'export',
   images: { unoptimized: true },
-  basePath: isProd ? '/tailwind-landing-page-template' : '',
-  assetPrefix: isProd ? '/tailwind-landing-page-template' : '',
+  basePath,
+  assetPrefix: basePath,
 };
 
 module.exports = nextConfig;
