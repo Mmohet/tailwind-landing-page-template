@@ -41,6 +41,9 @@ jobs:
         env:
           NODE_ENV: production
 
+      - name: Disable Jekyll
+        run: touch out/.nojekyll
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
