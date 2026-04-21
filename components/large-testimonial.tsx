@@ -23,12 +23,12 @@ export default function LargeTestimonial() {
               </div>
             </div>
             <p className="text-2xl font-bold text-gray-900">
-              "AiFlow Consulting took our vague idea and turned it into a
+              &ldquo;AiFlow Consulting took our vague idea and turned it into a
               production app in weeks.{" "}
               <em className="italic text-gray-500">
                 Their AI expertise is the real deal
               </em>{" "}
-              — not just buzzwords."
+              — not just buzzwords.&rdquo;
             </p>
             <div className="text-sm font-medium text-gray-500">
               <span className="text-gray-700">James Rivera</span>{" "}
